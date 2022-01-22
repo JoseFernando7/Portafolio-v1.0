@@ -1,0 +1,70 @@
+/* Estilos CSS para la sección de hobbies y sueños. */
+
+/* Display de flex para ubicar el contenedor de hobbies a la izquierda y el de dreams a la derecha. */
+.hobbies-and-dreams
+{
+    /* border: 2px dotted #f00; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies
+{
+    width: 50%;
+    margin: 0 30px 0 30px;
+    border-right: 2px dashed #b60000;
+}
+
+.hobbies > h2
+{
+    color: #b60000;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.hobbies > ul
+{
+    list-style: none;
+    padding: 0 50px 0 50px;
+}
+
+.hobbies > ul > li
+{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.dreams
+{
+    width: 50%;
+    margin: 0 30px 0 30px;
+    border-left: 2px dashed #b60000;
+    padding-bottom: 10px;
+}
+
+.dreams > h2
+{
+    color: #b60000;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.dreams > ul
+{
+    list-style: none;
+    padding: 0 50px 0 50px;
+}
+
+
+.dreams > ul > li
+{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.dreams > p
+{
+    margin-left: 60px;
+}

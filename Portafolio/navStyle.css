@@ -1,0 +1,109 @@
+/* Estilos para la barra de navegación. */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+}
+
+body
+{
+    background: #e7e7e7;
+}
+
+.menu-icon
+{
+    display: none;
+}
+
+/* Esto es para tamaño de letra y quitar decoracion de la lista en el nav */
+li, a
+{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Que todo el contenido de la pagina ocupe todo el ancho */
+.contenedor
+{
+    width: 100%;
+    /* max-width: 1600px; */
+    /* margin: 30px auto; */
+}
+
+/* Fijar la barra de navegacion arriba, agregar flex y separar contenido para que quede todo en una linea o fila y centrado, 
+altura minima de 100px, color de fondo blanco y margin top de -100px para que no se baje con el margin de 100px del contenido. */
+.barr-nav
+{
+    width: 97%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    min-height: 100px;
+    background: #fff;
+    margin-top: -120px;
+    box-shadow: 0 0 10px #555;
+}
+
+/* Alinear las banderas una al lado de la otra, separarlas y centrarlas */
+.banderas
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+/* Centrar las banderas dentro del contenedor .banderas */
+.s-flag, .e-flag
+{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+
+/* Darles tamaño y estilo a las banderas */
+.s-flag img, .e-flag img
+{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Quitar el subrayado */
+.lista-nav
+{
+    list-style: none;
+}
+
+/* Poner los elementos de la lista en fila y una al lado de la otra */
+.lista-nav li
+{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* Aumentar el espacio de selección del 'botón', ponerles color de fondo, estilo redondeado y una transición suave de 0.3 
+segundos de duración. */
+.lista-nav li a 
+{
+    padding: 5px 10px;
+    background: #b60000;
+    color: #fff;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+/* Cambiar el color del fondo de los enlaces cuando el cursor esté por encima. */
+.lista-nav li a:hover
+{
+    /* color: #a90000; */
+    background: #e60000;
+}

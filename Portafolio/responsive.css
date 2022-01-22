@@ -1,0 +1,194 @@
+/* Estilos para el responsive design */
+@media screen and (max-width: 768px)
+{
+    /* Barra de navegación responsiva. */
+    .barr-nav
+    {
+        width: 95%;
+    }
+
+    .menu-icon
+    {
+        width: 30px;
+        height: 30px;
+        display: block;
+        /* margin-left: -20px; */
+    }
+
+    .menu-icon > i
+    {
+        font-size: 2em;
+        color: #b60000;
+    }
+
+    .lista-nav
+    {
+        width: 100%;
+    }
+
+    .barr-nav ul
+    {
+        display: none;
+    }
+
+    .barr-nav ul.show
+    {
+        display: block;
+    }
+
+    .lista-nav li
+    {
+        display: block;
+        padding: 0;
+        margin: 20px 0;
+        border-top: 1px solid #b60000;
+    }
+
+    .lista-nav li a 
+    {
+        padding: 5px 0;
+        background: transparent;
+        color: #b60000;
+    }
+
+    .lista-nav li a:hover
+    {
+        background: transparent;
+        color: #e60000;
+    }
+
+    /* Sección de presentación. */
+    .about-me
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 0 50px 0;
+        margin-top: 50px;
+    }
+
+    .titulo > h1
+    {
+        font-size: 5em;
+    }
+
+    /* Dimensiones de la foto. */
+    .foto
+    {
+        height: 450px;
+        width: 450px;
+        margin: 0 auto 0 auto;
+    }
+
+    /* Definir espacio máximo que la foto va a ocupar dentro de la caja div .foto. */
+    .foto img
+    {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+    }
+
+    .historia
+    {
+        width: 80%;
+        margin: 50px auto 50px auto;
+    }
+
+    .historia > h2
+    {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .historia > p
+    {
+        font-size: 2em;
+    }
+
+    /* Sección de habilidades. */
+    .titulo > h2
+    {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .habilidades .titulo
+    {
+        width: 90%;
+        margin: 50px auto 50px auto;
+    }
+
+    .titulo > p
+    {
+        font-size: 2em;
+        text-align: justify;
+    }
+
+    .logos
+    {
+        margin: 10px 30px;
+        padding: 10px 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .titulo > h3
+    {
+        font-size: 2.3em;
+    }
+
+    .logo2 > p
+    {
+        font-size: 1.2em;
+    }
+
+    /* Sección de proyectos. */
+    .mis-proyectos > p, .proyecto-favorito > p
+    {
+        font-size: 2em;
+        text-align: justify;
+    }
+
+    .mis-proyectos > p
+    {
+        padding: 0 50px;
+    }
+
+    .mis-proyectos > h2, .proyecto-favorito > h2, .otros-proyectos > h2
+    {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    /* Sección de hobbies y sueños. */
+    .hobbies-and-dreams
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hobbies
+    {
+        width: 90%;
+        margin: 0 auto 10px auto;
+        border-bottom: 2px dashed #b60000;
+        border-right: none;
+    }
+
+    .dreams
+    {
+        width: 90%;
+        margin: 10px auto 0 auto;
+        border-top: 2px dashed #b60000;
+        border-left: none;
+    }
+
+    /* Sección de contacto. */
+    .contact > p
+    {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,101 @@
+/* Estilos CSS para la sección de presentación. */
+
+/* Ancho máximo del contenido de la página de 1600px, estructura grid y separación entre los elementos de 20px y estructurar 
+5 columnas de tamaño automático. */
+.contenido
+{
+    /* margin-top: 200px; */
+    max-width: 1200px;
+    margin: 120px auto 70px auto;
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-rows: repeat(5, auto);
+}
+
+.contenido .main,
+.contenido .habilidades,
+.contenido .proyectos,
+.contenido .hobbies-and-dreams,
+.contenido .contacto
+{
+    background: #fff;
+    border: 1px solid #b60000;
+    border-radius: 4px;
+}
+
+.main
+{
+    min-height: 650px;
+    /* padding-top: 100px; */
+}
+
+/* Diseño de estilos para el titulo principal. */
+.titulo > h1
+{
+    color: #b60000;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Flex para alinear los elementos de la presentación de forma horizontal con espacio en medio de ellos y un padding a los lados. */
+.about-me
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+}
+
+/* 650px de ancho para la historia de la presentación. */
+.historia
+{
+    width: 650px;
+}
+
+/* Estilos para el subtitulo 'Conoce sobre mi'. */
+.historia > h2
+{
+    color: #b60000;
+    font-size: 2em;
+}
+
+/* Estilos para el párrafo. */
+.historia > p
+{
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* Dimensiones de la foto. */
+.foto
+{
+    height: 300px;
+    width: 300px;
+}
+
+/* Definir espacio máximo que la foto va a ocupar dentro de la caja div .foto. */
+.foto img
+{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+/* Scrollbar personalizado. */
+body::-webkit-scrollbar
+{
+    width: 13px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background: #b60000;
+    border-radius: 10px;
+    border-right: 2px solid #e7e7e7;
+}
+
+body::-webkit-scrollbar-thumb:hover
+{
+    background: #e60000;
+}

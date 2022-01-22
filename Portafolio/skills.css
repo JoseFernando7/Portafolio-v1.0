@@ -1,0 +1,98 @@
+/* Estilos para la sección de habilidades. */
+
+.contenido .habilidades
+{
+    /* border: 2px solid #000; */
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-top: 100px; */
+}
+
+.titulo > h2
+{
+    color: #b60000;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.titulo > h3
+{
+    color: #b60000;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.titulo > p
+{
+    font-size: 1.1em;
+}
+
+/* Separar la sección en 4 columnas de una fracción cada una y en filas indefinidas y separar los elementos en 20px. */
+.logos
+{
+    margin: 10px 30px;
+    padding: 10px 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Dar tamaño a la caja de los logos, centrarlos en el espacio otorgado por el grid, dar display de flex en dirección de 
+columna y aportar un espacio entre el logo y el texto. */
+.logo
+{
+    height: 170px;
+    width: 200px;
+    /* border: 2px solid #000; */
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo:hover
+{
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #000, 0 0 20px #000;
+}
+
+/* Definir el espacio que ocupará la imagen dentro de la caja div.logo y margin auto para centrarla. */
+.logo > img
+{
+    max-width: 100%;
+    max-height: 80%;
+    /* border-radius: 5px; */
+    margin: auto;
+}
+
+/* Dar tamaño a la caja de los logos de tecnologías por aprender, centrarlos en el espacio otorgado por el grid, dar display de 
+flex en dirección de columna y aportar un espacio entre el logo y el texto. */
+.logo2
+{
+    height: auto;
+    width: 200px;
+    /* border: 2px solid #000; */
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Definir el espacio que ocupará la imagen dentro de la caja div.logo y margin auto a los lados para centrarla. */
+.logo2 > img
+{
+    max-width: 100%;
+    max-height: 80%;
+    /* border-radius: 5px; */
+    margin: auto 0 auto 0;
+}
+
+.logo2 > p
+{
+    text-align: justify;
+    padding-bottom: 10px;
+}

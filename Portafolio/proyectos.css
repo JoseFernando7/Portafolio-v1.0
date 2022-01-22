@@ -1,0 +1,174 @@
+/* Estilos para la sección de proyectos. */
+.mis-proyectos > h2
+{
+    color: #b60000;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.mis-proyectos > p
+{
+    font-size: 1.1em;
+    padding-left: 70px;
+}
+
+/* .projects
+{
+    padding: 70px 0;
+} */
+
+.proyecto-favorito
+{
+    margin: 50px 0;
+    padding: 50px;
+    background: #900000;
+    border-top: 7px dashed #fff;
+    border-bottom: 7px dashed #fff;
+}
+
+.proyecto-favorito > h2
+{
+    color: #FFD700;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.proyecto-favorito > p
+{
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.imagenes
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.medalla
+{
+    width: 250px;
+    height: 250px;
+}
+
+.medalla > img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.el-proyecto
+{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.el-proyecto:hover
+{
+    box-shadow: 0 0 10px #FFD700, 0 0 40px #FFD700, 0 0 80px #FFD700;
+}
+
+.el-proyecto > img
+{
+    width: 100%;
+    height: 80%;
+    border: 2px solid #000;
+}
+
+.el-proyecto > h3
+{
+    color: #fff;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.el-proyecto > p
+{
+    color: #fff;
+    text-align: justify;
+}
+
+.btn-github
+{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.btn-github > a
+{
+    padding: 10px 15px;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-github > a > img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.otros-proyectos > h2
+{
+    color: #b60000;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.contenedor-otros
+{
+    margin: 10px 30px;
+    padding: 10px 20px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.otros
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.otros > h3
+{
+    color: #000;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.otros > p
+{
+    text-align: justify;
+}
+
+.img
+{
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+}
+
+.img > img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
