@@ -1,0 +1,223 @@
+/* Estilos para el responsive design en dispositivos mobiles */
+@media screen and (max-width: 425px)
+{
+    /* Barra de navegación. */
+    .barr-nav
+    {
+        width: 370px;
+    }
+
+    .banderas
+    {
+        width: 120px;
+    }
+
+    .banderas .s-flag
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .banderas .e-flag
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* .contenido
+    {
+        width: 285px;
+    } */
+
+    /* Sección principal. */
+    .main
+    {
+        width: 410px;
+    }
+
+    .titulo > h1
+    {
+        font-size: 3em;
+    }
+
+    .foto
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about-me .historia > h2
+    {
+        font-size: 1.7em;
+    }
+
+    .about-me .historia > p
+    {
+        font-size: 1.2em;
+    }
+
+    /* Sección de Habilidades. */
+    .habilidades
+    {
+        width: 310px;
+    }
+
+    .habilidades .titulo
+    {
+        width: 300px;
+    }
+
+    .titulo > h2
+    {
+        font-size: 1.9em;
+    }
+
+    .titulo > p
+    {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .logos
+    {
+        margin: 10px 0;
+        margin-left: -10px;
+        /* padding: 10px 20px; */
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logo
+    {
+        height: 100px;
+        width: 100px;
+        /* border: 2px solid #000; */
+        margin: 0 auto 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo:hover
+    {
+        border: none;
+        box-shadow: none;
+    }
+
+    .logo > p
+    {
+        font-size: 0.7em;
+    }
+
+    .titulo > h3
+    {
+        font-size: 1.5em;
+    }
+
+    .logo2
+    {
+        height: auto;
+        width: 100px;
+        /* border: 2px solid #000; */
+        margin: 0 auto 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo2 > p
+    {
+        font-size: 0.8em;
+    }
+
+    /* Sección de proyectos. */
+    .proyectos
+    {
+        width: 410px;
+    }
+
+    .mis-proyectos > h2
+    {
+        font-size: 1.9em;
+    }
+
+    .mis-proyectos > p
+    {
+        font-size: 1.2em;
+    }
+
+    .proyecto-favorito > h2
+    {
+        font-size: 1.9em;
+    }
+
+    .proyecto-favorito > p
+    {
+        font-size: 1.2em;
+    }
+
+    .imagenes .medalla
+    {
+        display: none;
+    }
+
+    .el-proyecto:hover
+    {
+        border: none;
+        box-shadow: none;
+    }
+
+    .otros-proyectos > h2
+    {
+        font-size: 1.9em;
+    }
+
+    .contenedor-otros
+    {
+        gap: 20px;
+    }
+
+    .otros
+    {
+        width: 150px;
+        padding: 0;
+    }
+
+    .otros > h3
+    {
+        font-size: 1.1em;
+    }
+
+    .otros .img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Sección hobbies. */
+    .hobbies-and-dreams
+    {
+        width: 410px;
+    }
+
+    .dreams > p
+    {
+        margin-left: 30px;
+    }
+
+    /* Sección contacto. */
+    .contacto
+    {
+        width: 370px;
+        padding: 0 20px;
+    }
+
+    .contact > ul > li
+    {
+        padding: 0 2px;
+    }
+}
