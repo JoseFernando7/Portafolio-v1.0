@@ -32,7 +32,7 @@
     /* Sección principal. */
     .main
     {
-        width: 410px;
+        width: 423px;
     }
 
     .titulo > h1
@@ -59,7 +59,7 @@
     /* Sección de Habilidades. */
     .habilidades
     {
-        width: 310px;
+        width: 323px;
     }
 
     .habilidades .titulo
@@ -131,13 +131,13 @@
 
     .logo2 > p
     {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     /* Sección de proyectos. */
     .proyectos
     {
-        width: 410px;
+        width: 423px;
     }
 
     .mis-proyectos > h2
@@ -201,7 +201,12 @@
     /* Sección hobbies. */
     .hobbies-and-dreams
     {
-        width: 410px;
+        width: 423px;
+    }
+
+    .hobbies > ul > li, .dreams > ul > li
+    {
+        font-size: 1.3em;
     }
 
     .dreams > p
@@ -209,11 +214,26 @@
         margin-left: 30px;
     }
 
+    .hobbies > h2, .dreams > h2
+    {
+        font-size: 2em;
+    }
+
     /* Sección contacto. */
     .contacto
     {
-        width: 370px;
+        width: 383px;
         padding: 0 20px;
+    }
+
+    .contact > h2
+    {
+        font-size: 2em;
+    }
+
+    .contact > p
+    {
+        font-size: 1.3em;
     }
 
     .contact > ul > li

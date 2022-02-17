@@ -161,6 +161,35 @@
         text-align: center;
     }
 
+    .el-proyecto > h3
+    {
+        font-size: 1.5em;
+    }
+
+    .el-proyecto > p
+    {
+        font-size: 1.2em;
+    }
+
+    .contenedor-otros
+    {
+        margin: 10px 30px;
+        padding: 10px 20px;
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .otros > h3
+    {
+        font-size: 1.5em;
+    }
+
+    .otros > p
+    {
+        font-size: 1.2em;
+    }
+
     /* Sección de hobbies y sueños. */
     .hobbies-and-dreams
     {
@@ -177,6 +206,16 @@
         border-right: none;
     }
 
+    .hobbies > h2, .dreams > h2
+    {
+        font-size: 3em;
+    }
+
+    .hobbies > ul > li, .dreams > ul > li
+    {
+        font-size: 1.5em;
+    }
+
     .dreams
     {
         width: 90%;
@@ -185,10 +224,20 @@
         border-left: none;
     }
 
-    /* Sección de contacto. */
-    .contact > p
+    .dreams > p
     {
         font-size: 1.2em;
+    }
+
+    /* Sección de contacto. */
+    .contact > h2
+    {
+        font-size: 3em;
+    }
+
+    .contact > p
+    {
+        font-size: 1.5em;
         text-align: justify;
     }
 }
